@@ -1,0 +1,14 @@
+git init
+git add first.html
+git add second.html
+git add third.html
+git commit -m "first commit"
+git rm -rf second.html
+git checkout HEAD -- .
+git commit -m "update commit"
+git remote add origin https://github.com/AmrAttia/Sprint0.git
+git push -u origin master
+git branch ReadMe
+git add README.md
+git checkout master
+git merge ReadMe
